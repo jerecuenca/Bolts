@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+body{
+  display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+/* MENU */
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color:white;
+  width: 100%;
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+li {
+  display: inline;
+}  
+
+ul a {
+  display:inline-block;
+  color: #2b92f8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: Pico Regular,Helvetica Neue,Arial,Hiragino Kaku Gothic ProN,Hiragino Sans,Meiryo,sans-serif;;
+}        
+ul a:hover {
+  color: white;
+  background-color:#2b92f8;
+  border-radius: 3px;
+}
+
+
+/* INICIO */
+
+.cont1{
+  width: 100%;
+  position: relative;
+  -webkit-backdrop-filter: blur(100px);
+  backdrop-filter:blur(100px);
+  background-color: transparent;
+}
+
+
+
+.cont1 h1{
+  z-index:1 ;
+  font-size: 5vw;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  color: white;
+  font-family: Pico Regular,Helvetica Neue,Arial,Hiragino Kaku Gothic ProN,Hiragino Sans,Meiryo,sans-serif;;
+}
+.cont1 img{
+  width:100%;
+  height: 100vh;
+  height: min-content;
+  filter: blur(5px);
+}
+
+
+.cont2{
+  width: 100%;
+} 
+
+.texto1{
+  color: black;
+  font-weight: 600;
+  padding: 1%;
+  font-family: Pico Regular,Helvetica Neue,Arial,Hiragino Kaku Gothic ProN,Hiragino Sans,Meiryo,sans-serif;;
+}
+/* CONTACTO */
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+ }
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="email"],
+
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #127369;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #10403B;
+}
+
+ /* PRODUCTO */
+
+ .casco{
+  background-color: #2b92f8;
+  width: 50%;
+	height: auto;
+  align-content: center;
+  float: right;
+}
+#casco {
+  width:100%;
+  height:50vw;
+}
+
+  /*FOOTER*/
+
+footer{
+	text-align: center;
+	margin-top: 30px;
+	padding: 10px;
+	color: #2b92f8;
+}
+.footer-content{
+  width: 50%;
+  float: left;
+}
+
+footer hr{
+	margin-bottom: 2%;
+}
+
+.iconos i{
+    font-size: 150%;
+    padding: 0.5%;
+    color: #2b92f8;
+    
+}
+.iconos{
+    width: 50%;
+    float: right;
+
+}
+.iconos i:hover{
+    color:#164d85;
+}
